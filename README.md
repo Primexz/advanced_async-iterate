@@ -9,7 +9,7 @@ const each = require('advanced_async-iterate')
 const result = await each.each([ 1, 2, 3, 4 ], map = async (value) => {
   return value += 1
 }, map = async (value) => {
-  return value += 1
+  return value *= 2
 })
 
 console.log(result) // [ 4, 6, 8, 10 ]
