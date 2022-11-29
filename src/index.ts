@@ -1,4 +1,4 @@
-export async function each(input: Array<any>, ...functions: Function[]) {
+export async function each(input: any[], ...functions: Function[]): Promise<boolean | any[]> {
 	for await (const callback of functions) {
 		if (typeof callback != 'function') throw new Error('You have to pass a function as parameter.')
 
