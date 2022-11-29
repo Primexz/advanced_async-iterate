@@ -1,6 +1,6 @@
 {
   "name": "advanced_async-iterate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Advanced Async Iterate is a JavaScript library that simplifies the handling of arrays. You can now execute asynchronous functions in interactions like forEach or map!",
   "main": "lib/index.js",
   "scripts": {
